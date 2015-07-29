@@ -2,9 +2,9 @@
 <package >
   <metadata>
     <id>KenticoHelpers.dll</id>
-    <version>1.0.0</version>
-    <authors>vby</authors>
-    <owners>vby</owners>
+    <version>0.1.2</version>
+    <authors>Vlad Bylenko</authors>
+    <owners>Vlad Bylenko</owners>
     
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Kentico helpers for version 8</description>

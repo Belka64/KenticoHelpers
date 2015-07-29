@@ -1,13 +1,10 @@
 ﻿using CMS.Controls;
 using CMS.DocumentEngine;
-using CMS.SiteProvider;
 using System;
-using System.Collections.Generic;
 using System.Web;
 using System.Web.Mvc;
-using KenticoHelpers;
 
-namespace KenticoRazorHelpers
+namespace KenticoHelpers
 {
     public static class Web
     {

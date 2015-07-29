@@ -1,11 +1,8 @@
-﻿using CMS.Controls;
-using CMS.DocumentEngine;
+﻿using CMS.DocumentEngine;
 using CMS.SiteProvider;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-using System.Web.Mvc;
 
 namespace KenticoHelpers
 {
@@ -58,7 +55,7 @@ namespace KenticoHelpers
             var tp = new TreeProvider();
             TreeNode tn = tp.SelectSingleNode(TreePathUtils.GetNodeIdByNodeGUID(nodeGuid, siteName));
             if (tn != null) return tn.RelativeURL;
-            
+
             return string.Empty;
         }
 

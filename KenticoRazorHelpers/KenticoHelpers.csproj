@@ -63,7 +63,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(ProjectDir)$(OutDir)*.dll" "$(SolutionDir)nuget_package" /Y
+    <PostBuildEvent>xcopy "$(ProjectDir)$(OutDir)*.dll" "$(SolutionDir)nuget_package\lib" /Y
 
 
 </PostBuildEvent>
