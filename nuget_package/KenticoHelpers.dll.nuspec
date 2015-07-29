@@ -2,13 +2,16 @@
 <package >
   <metadata>
     <id>KenticoHelpers.dll</id>
-    <version>0.1.2</version>
+    <version>0.1.3</version>
     <authors>Vlad Bylenko</authors>
     <owners>Vlad Bylenko</owners>
-    
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Kentico helpers for version 8</description>
-        <copyright>Vlad Bylenko 2015</copyright>
-    
-  </metadata>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/Belka64/KenticoHelpers</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This is a few methods I'm using in my MVC based kentico solution for facilitate using razor view engine. </description>
+	<summary>This package tested only for kentiko 8, commpiled for .Net Framework 4.5 and require CMS.Base, CMS.Controls, CMS.DocumentEngine, CMS.DataEngine and CMS.SiteProvider. Pls feel fre to contribute in project github repository: https://github.com/Belka64/KenticoHelpers</summary>
+    <releaseNotes>CMS.Base, CMS.Controls, CMS.DocumentEngine, CMS.DataEngine and CMS.SiteProvider deleted from references</releaseNotes>
+    <copyright>Vlad Bylenko 2015</copyright>
+    <tags>kentico razor helper mvc</tags>
+    </metadata>
 </package>
