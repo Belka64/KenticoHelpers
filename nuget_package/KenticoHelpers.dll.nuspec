@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>KenticoHelpers.dll</id>
+    <version>1.0.0</version>
+    <authors>vby</authors>
+    <owners>vby</owners>
+    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Kentico helpers for version 8</description>
+        <copyright>Vlad Bylenko 2015</copyright>
+    
+  </metadata>
+</package>
