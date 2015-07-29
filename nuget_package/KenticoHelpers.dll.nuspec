@@ -8,8 +8,8 @@
     <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
     <projectUrl>https://github.com/Belka64/KenticoHelpers</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>This is a few methods I'm using in my MVC based kentico solution for facilitate using razor view engine. This package tested only for kentiko 8, commpiled for .Net Framework 4.5 and require CMS.Base, CMS.Controls, CMS.DocumentEngine, CMS.DataEngine and CMS.SiteProvider. Pls feel fre to contribute in project github repository: https://github.com/Belka64/KenticoHelpers</description>
-	<summary>This is a few methods I'm using in my MVC based kentico solution for facilitate using razor view engine. This package tested only for kentiko 8, commpiled for .Net Framework 4.5 and require CMS.Base, CMS.Controls, CMS.DocumentEngine, CMS.DataEngine and CMS.SiteProvider. Pls feel fre to contribute in project github repository: https://github.com/Belka64/KenticoHelpers</summary>
+    <description>This is a few methods I'm using in my MVC based kentico solution for facilitate using razor view engine. This package tested only for kentiko 8, commpiled for .Net Framework 4.5 and require CMS.Base, CMS.Controls, CMS.DocumentEngine, CMS.DataEngine and CMS.SiteProvider. Pls feel free to contribute in project github repository: https://github.com/Belka64/KenticoHelpers</description>
+	<summary>This is a few methods I'm using in my MVC based kentico solution for facilitate using razor view engine. This package tested only for kentiko 8, commpiled for .Net Framework 4.5 and require CMS.Base, CMS.Controls, CMS.DocumentEngine, CMS.DataEngine and CMS.SiteProvider. Pls feel free to contribute in project github repository: https://github.com/Belka64/KenticoHelpers</summary>
     <releaseNotes>CMS.Base, CMS.Controls, CMS.DocumentEngine, CMS.DataEngine and CMS.SiteProvider deleted from references</releaseNotes>
     <copyright>Vlad Bylenko 2015</copyright>
     <tags>kentico razor helper mvc</tags>
