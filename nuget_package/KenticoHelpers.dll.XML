@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KenticoHelpers</name>
+    </assembly>
+    <members>
+        <member name="M:KenticoHelpers.Extensions.GetNodesFromMultiList(CMS.DocumentEngine.TreeNode,System.String)">
+            <summary>
+            Get nodes from multiple choice dual list field</summary>
+            <remarks>
+            Helper for "Multiple Choice Dual List (With Sort)". Download Page:
+            devnet.kentico.com/marketplace/inline-controls/dual-list-multi-select-form-(with-sort) </remarks>
+        </member>
+        <member name="M:KenticoHelpers.Extensions.GetNode(System.Guid,System.String)">
+            <summary>
+            Get node by Guid</summary>
+            <remarks> 
+            Return null if nodeGuid is empty or node is not exist </remarks> 
+        </member>
+        <member name="M:KenticoHelpers.Extensions.GetDocumentLink(System.Guid,System.String)">
+            <summary>
+            Get url by Guid</summary>
+        </member>
+        <member name="M:KenticoHelpers.Extensions.GetDocumentLink(System.Guid)">
+            <summary>
+            Get node by Guid</summary>
+            /// <remarks> 
+            Get url by guid for current site </remarks>
+        </member>
+        <member name="M:KenticoHelpers.Web.GetImage(CMS.DocumentEngine.TreeNode,System.String,System.Object)">
+            <summary> 
+            Get 'img' tag with image url from given node</summary>
+            <remarks> 
+            Use only for attacment with image in field</remarks> 
+        </member>
+        <member name="M:KenticoHelpers.Web.GetFileLink(CMS.DocumentEngine.TreeNode,System.String,System.String,System.Object)">
+            <summary> 
+            Get 'a' tag with attached file url from given node</summary>
+            <remarks> 
+            For any attachment types</remarks> 
+        </member>
+        <member name="M:KenticoHelpers.Web.GetDocumentLink(CMS.DocumentEngine.TreeNode,System.String,System.String,System.Object)">
+            <summary> 
+            Get 'a' tag with url to given node</summary> 
+        </member>
+        <member name="M:KenticoHelpers.Web.GetDocumentLink(System.Guid,System.String,System.String,System.Object)">
+            <summary> 
+            Get 'a' tag with url to node by given guid</summary> 
+        </member>
+    </members>
+</doc>
