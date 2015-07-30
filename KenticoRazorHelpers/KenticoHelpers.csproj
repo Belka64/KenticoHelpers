@@ -28,6 +28,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\KenticoHelpers.dll.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CMS.Base">
@@ -64,6 +65,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(ProjectDir)$(OutDir)$(TargetFileName)" "$(SolutionDir)nuget_package\lib" /Y
+xcopy "$(ProjectDir)$(OutDir)$(TargetFileName).xml" "$(SolutionDir)nuget_package\lib" /Y
 xcopy "$(ProjectDir)$(OutDir)$(TargetFileName)" "$(SolutionDir)nuget_package" /Y
 
 </PostBuildEvent>
