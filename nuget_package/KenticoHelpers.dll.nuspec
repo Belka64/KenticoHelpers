@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>KenticoWebHelpers</id>
-    <version>0.1.3</version>
+    <version>0.1.4</version>
     <authors>Vlad Bylenko</authors>
     <owners>Vlad Bylenko</owners>
     <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
